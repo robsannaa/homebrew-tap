@@ -3,8 +3,8 @@ class ZohoCli < Formula
 
   desc "Zoho Mail JSON CLI — pipe-friendly, agent-ready"
   homepage "https://github.com/robsannaa/zoho-cli"
-  url "https://github.com/robsannaa/zoho-cli/archive/refs/tags/v0.1.4.tar.gz"
-  sha256 "564201057fc5f662efb727274043dcd94979a690022d5afe82472ae54af756c0"
+  url "https://github.com/robsannaa/zoho-cli/archive/refs/tags/v0.1.3.tar.gz"
+  sha256 "558f14b0e2654e9d444214b816a79ba07ba4e55638e15d6a9f224567056d3997"
   license "MIT"
 
   depends_on "python@3.12"
@@ -27,6 +27,11 @@ class ZohoCli < Formula
   resource "httpx" do
     url "https://files.pythonhosted.org/packages/b1/df/48c586a5fe32a0f01324ee087459e112ebb7224f646c0b5023f5e79e9956/httpx-0.28.1.tar.gz"
     sha256 "75e98c5f16b0f35b567856f597f06ff2270a374470a5c2392242528e3e3e42fc"
+  end
+
+  resource "idna" do
+    url "https://files.pythonhosted.org/packages/6f/6d/0703ccc57f3a7233505399edb88de3cbd678da106337b9fcde432b65ed60/idna-3.11.tar.gz"
+    sha256 "795dafcc9c04ed0c1fb032c2aa73654d8e8c5023a7df64a53f39190ada629902"
   end
 
   resource "anyio" do
