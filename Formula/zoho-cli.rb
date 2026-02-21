@@ -3,8 +3,8 @@ class ZohoCli < Formula
 
   desc "Zoho Mail JSON CLI — pipe-friendly, agent-ready"
   homepage "https://github.com/robsannaa/zoho-cli"
-  url "https://github.com/robsannaa/zoho-cli/archive/refs/tags/v0.1.7.tar.gz"
-  sha256 "e38c4525f4d79cdc2dff0749322c337ff6e380164157812f67de1e5be7546f1c"
+  url "https://github.com/robsannaa/zoho-cli/archive/refs/tags/v0.1.8.tar.gz"
+  sha256 "e6a66a78c82383f408265e97d0c75df90159a2b8b135fbd96b34c9fa0c7d8373"
   license "MIT"
 
   depends_on "python@3.12"
@@ -105,8 +105,8 @@ class ZohoCli < Formula
   end
 
   resource "typer" do
-    url "https://files.pythonhosted.org/packages/5a/b6/3e681d3b6bb22647509bdbfdd18055d5adc0dce5c5585359fa46ff805fdc/typer-0.24.0.tar.gz"
-    sha256 "f9373dc4eff901350694f519f783c29b6d7a110fc0dcc11b1d7e353b85ca6504"
+    url "https://files.pythonhosted.org/packages/f5/24/cb09efec5cc954f7f9b930bf8279447d24618bb6758d4f6adf2574c41780/typer-0.24.1.tar.gz"
+    sha256 "e39b4732d65fbdcde189ae76cf7cd48aeae72919dea1fdfc16593be016256b45"
   end
 
   resource "typing-extensions" do
