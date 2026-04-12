@@ -3,8 +3,8 @@ class ZohoCli < Formula
 
   desc "Zoho Mail JSON CLI — pipe-friendly, agent-ready"
   homepage "https://github.com/robsannaa/zoho-cli"
-  url "https://github.com/robsannaa/zoho-cli/archive/refs/tags/v0.1.9.tar.gz"
-  sha256 "75de7a2da2106fa842d8356b42408689b59ab999e0faf5cb0d31bc551fc58023"
+  url "https://github.com/robsannaa/zoho-cli/archive/refs/tags/v0.1.10.tar.gz"
+  sha256 "b52c3062c436fdfa5893d379afd3e3b232ff9f68592f41769822068b0fd2dcde"
   license "MIT"
 
   depends_on "python@3.12"
